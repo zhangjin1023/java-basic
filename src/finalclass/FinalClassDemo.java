@@ -100,6 +100,9 @@ public final class FinalClassDemo {
 		map2.put("4", "d");
 		System.out.println("#map: " + finalClassDemo.getMap());
 		
+		String test = "aaa|bbb";
+		System.out.println(test.contains("|"));
+		
 		
 	}
 	
