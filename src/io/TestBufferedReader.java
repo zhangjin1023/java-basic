@@ -30,7 +30,7 @@ public class TestBufferedReader {
 	}
 
 	public static void main(String[] args) {
-		String URL = "http://blog.csdn.net/zgljl2012/article/details/47267609";
+		String URL = "http://222.66.72.115:8096/download/20171203/100000000000008/j1dbfd843ac100a8d096f40a95806d569/100000000000008-20171203-DZ.txt";
 		TestInputStreamReader test = new TestInputStreamReader();
 		System.out.println(test.getStream(URL));
 	}
