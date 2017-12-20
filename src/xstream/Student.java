@@ -1,11 +1,10 @@
 package xstream;
 
-import java.io.Serializable;
 import java.util.List;
 
 import com.thoughtworks.xstream.annotations.XStreamAlias;
+import com.thoughtworks.xstream.annotations.XStreamAsAttribute;
 import com.thoughtworks.xstream.annotations.XStreamImplicit;
-import com.thoughtworks.xstream.annotations.XStreamOmitField;
 
 /**
  * xml解析位student实体
@@ -15,9 +14,12 @@ import com.thoughtworks.xstream.annotations.XStreamOmitField;
  */
 @XStreamAlias("student")
 public class Student {
+	@XStreamAsAttribute
+	private String version;
 	private String name;
+	@XStreamAlias("student_age")
 	private String age;
-//	@XStreamOmitField
+	// @XStreamOmitField
 	private String sex;
 	@XStreamImplicit(itemFieldName = "mobile")
 	private List<String> mobiles;
@@ -54,9 +56,18 @@ public class Student {
 		this.sex = sex;
 	}
 
+	public String getVersion() {
+		return version;
+	}
+
+	public void setVersion(String version) {
+		this.version = version;
+	}
+
 	@Override
 	public String toString() {
-		return "Student [name=" + name + ", age=" + age + ", sex=" + sex + ", mobiles=" + mobiles + "]";
+		return "Student [version=" + version + ", name=" + name + ", age=" + age + ", sex=" + sex + ", mobiles="
+				+ mobiles + "]";
 	}
 
 }
