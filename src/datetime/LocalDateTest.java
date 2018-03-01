@@ -34,6 +34,10 @@ public class LocalDateTest {
 		LocalDate ofYearDay = LocalDate.ofYearDay(2017, 280);
 		System.out.println(ofYearDay);
 		
+		
+		LocalDate today = LocalDate.now();
+        LocalDate start = today.minusMonths(11);
+        System.out.println(start);
 	}
 
 }
