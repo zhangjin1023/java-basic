@@ -9,19 +9,18 @@ import java.lang.annotation.Target;
 
 /**
  * 水果提供商注解
- * 
- * @author zhang_jin[zhang_jin@suixingpay.com]
  *
+ * @author zhang_jin[zhang_jin@suixingpay.com]
  */
 @Target(ElementType.FIELD)
 @Inherited
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
 public @interface FruitProvider {
-	public int id() default -1;
+    public int id() default -1;
 
-	public String name() default "";
+    public String name() default "";
 
-	public String address() default "";
+    public String address() default "";
 
 }

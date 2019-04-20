@@ -2,7 +2,7 @@ package oop.rabbit;
 
 /**
  * 面向对象思想解决兔子问题（斐波那契数列）
- * 
+ *
  * @author: zhang_jin[zhang_jin@suixingpay.com]
  * @date: 2017年9月25日 下午8:27:42
  * @version: V1.0

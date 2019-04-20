@@ -1,7 +1,8 @@
 package oop.laozhang;
 
-/**  
+/**
  * TODO
+ *
  * @author: zhang_jin[zhang_jin@suixingpay.com]
  * @date: 2017年9月25日 下午9:58:51
  * @version: V1.0
@@ -9,8 +10,9 @@ package oop.laozhang;
  */
 public class Car extends Vehicle {
 
-    /**      
-     * TODO 
+    /**
+     * TODO
+     *
      * @see oop.laozhang.Vehicle#go()
      */
     @Override

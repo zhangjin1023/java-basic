@@ -29,7 +29,7 @@ public class Person {
 
     /**
      * 只要年龄相等就认为是对象相等
-     * 
+     *
      * @param obj
      * @return
      * @see java.lang.Object#equals(java.lang.Object)
@@ -45,7 +45,7 @@ public class Person {
 
     /**
      * 故意让hashCode和equals返回值不一致，测试HashSet
-     * 
+     *
      * @return
      * @see java.lang.Object#hashCode()
      */
