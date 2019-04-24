@@ -5,6 +5,7 @@ import org.junit.Test;
 
 /**
  * All rights Reserved, Designed By Suixingpay.
+ * 参考文档：http://dubbo.apache.org/zh-cn/docs/source_code_guide/dubbo-spi.html
  *
  * @author: 张锦
  * @date: 2019/4/21 13:49
