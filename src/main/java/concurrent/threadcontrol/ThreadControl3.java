@@ -35,12 +35,10 @@ public class ThreadControl3 {
     private class RunnableA implements Runnable {
 
         public void run() {
-
             for (int i = 0; i < 10; i++) {
                 try {
                     semaphoresA.acquire();
                 } catch (InterruptedException e) {
-                    // TODO Auto-generated catch block
                     e.printStackTrace();
                 }
                 System.out.println(String.format("第%d遍", i + 1));
@@ -54,12 +52,10 @@ public class ThreadControl3 {
     private class RunnableB implements Runnable {
 
         public void run() {
-
             for (int i = 0; i < 10; i++) {
                 try {
                     semaphoresB.acquire();
                 } catch (InterruptedException e) {
-                    // TODO Auto-generated catch block
                     e.printStackTrace();
                 }
                 System.out.println("B");
@@ -72,12 +68,10 @@ public class ThreadControl3 {
     private class RunnableC implements Runnable {
 
         public void run() {
-
             for (int i = 0; i < 10; i++) {
                 try {
                     semaphoresC.acquire();
                 } catch (InterruptedException e) {
-                    // TODO Auto-generated catch block
                     e.printStackTrace();
                 }
                 System.out.println("C");

@@ -8,31 +8,13 @@ package concurrent.threadcontrol;
 public class ThreadControl2 {
 
     public static void main(String[] args) {
-        final Thread t1 = new Thread(new Runnable() {
-            @Override
-            public void run() {
-                System.out.println("t1 running");
-            }
-        });
-
-        final Thread t2 = new Thread(new Runnable() {
-            @Override
-            public void run() {
-                System.out.println("t2 running");
-            }
-        });
-
-        final Thread t3 = new Thread(new Runnable() {
-            @Override
-            public void run() {
-                System.out.println("t3 running");
-            }
-        });
+        final Thread t1 = new Thread(() -> System.out.println("t1 running"));
+        final Thread t2 = new Thread(() -> System.out.println("t2 running"));
+        final Thread t3 = new Thread(() -> System.out.println("t3 running"));
         t1.start();
         try {
             t1.join();
         } catch (InterruptedException e1) {
-            // TODO Auto-generated catch block
             e1.printStackTrace();
         }
 
@@ -40,7 +22,6 @@ public class ThreadControl2 {
         try {
             t2.join();
         } catch (InterruptedException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         }
 
@@ -48,7 +29,6 @@ public class ThreadControl2 {
         try {
             t3.join();
         } catch (InterruptedException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         }
     }
