@@ -8,10 +8,10 @@ import java.io.IOException;
 /**
  * 拼接图片
  *
- * @author: zhang_jin[zhang_jin@suixingpay.com]
+ * @author: zhang_jin[zhang_jin@XXXCompany.com]
  * @date: 2017年9月25日 下午10:20:22
  * @version: V1.0
- * @review: zhang_jin[zhang_jin@suixingpay.com]/2017年9月25日 下午10:20:22
+ * @review: zhang_jin[zhang_jin@XXXCompany.com]/2017年9月25日 下午10:20:22
  */
 public class CompactImage {
     public static void main(String[] args) throws IOException {

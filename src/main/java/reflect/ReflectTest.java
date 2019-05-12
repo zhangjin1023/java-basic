@@ -3,12 +3,12 @@ package reflect;
 import java.lang.reflect.Method;
 
 /**
- * All rights Reserved, Designed By Suixingpay.
+ * All rights Reserved, Designed By XXXCompany.
  *
  * @author: 张锦
  * @date: 2019/4/29 22:58
- * @Copyright ©2019 Suixingpay. All rights reserved.
- * 注意：本内容仅限于随行付支付有限公司内部传阅，禁止外泄以及用于其他的商业用途。
+ * @Copyright ©2019 XXXCompany. All rights reserved.
+ * 注意：本内容仅限于XXX有限公司内部传阅，禁止外泄以及用于其他的商业用途。
  */
 public class ReflectTest {
 
@@ -16,7 +16,7 @@ public class ReflectTest {
      * 蚂蚁金服笔试题：通过反射调用对象某个方法，包括私有方法
      *
      * @return void
-     * @Author zhang_jin@suixingpay.com
+     * @Author zhang_jin@XXXCompany.com
      * @Date 23:16 2019/4/29
      * @Param [target, methodName, param]
      **/

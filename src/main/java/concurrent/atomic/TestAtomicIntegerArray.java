@@ -7,7 +7,7 @@ import java.util.concurrent.atomic.AtomicIntegerArray;
  * 数组value通过构造方法传递进去，然后AtomicIntegerArray会将当前数组复制一份，
  * 所以当AtomicIntegerArray对内部的数组元素进行修改时，不会影响到传入的数组。
  *
- * @author zhang_jin[zhang_jin@suixingpay.com]
+ * @author zhang_jin[zhang_jin@XXXCompany.com]
  */
 public class TestAtomicIntegerArray {
     static int[] value = new int[]{1, 2};

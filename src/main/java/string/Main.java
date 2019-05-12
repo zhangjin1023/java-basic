@@ -6,7 +6,7 @@ public class Main {
         System.out.println(test.substring(8));
 
         String msg = "asdasn你好sda我好【小随代还】";
-        String msg2 = "asdasn你好sda我好【随行付】";
+        String msg2 = "asdasn你好sda我好【XXX】";
         String msg3 = "asdasn你好sda我好";
 
         System.out.println(addSign(msg3));
@@ -22,18 +22,18 @@ public class Main {
         if (msg.contains("【小随代还】")) {
             System.out.println("02");
             return msg.replace("【小随代还】", "");//去除签名
-        } else if (msg.contains("【随行付】")) {
+        } else if (msg.contains("【XXX】")) {
             System.out.println("01");
-            return msg.replace("【随行付】", "");//去除签名
+            return msg.replace("【XXX】", "");//去除签名
         } else {
-            System.out.println("01");//若短信内容没有签名，则默认【随行付】签名
+            System.out.println("01");//若短信内容没有签名，则默认【XXX】签名
             return msg;
         }
     }
 
     public static String addSign_langyu(String msg) {
         if (!msg.contains("【") && !msg.contains("】")) {
-            return msg + "【随行付】";
+            return msg + "【XXX】";
         }
         return msg;
     }

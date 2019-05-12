@@ -10,7 +10,7 @@ import java.util.Date;
  * 　说明：当线程较多时，当一个线程调用该方法时，其他想要调用此方法的线程就要block，
  * 多线程并发量大的时候会对性能有一定的影响。
  *
- * @author zhang_jin[zhang_jin@suixingpay.com]
+ * @author zhang_jin[zhang_jin@XXXCompany.com]
  */
 public class DateUtil3 {
 

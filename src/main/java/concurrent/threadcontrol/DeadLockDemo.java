@@ -3,7 +3,7 @@ package concurrent.threadcontrol;
 /**
  * 写一个死锁的示例
  *
- * @author zhang_jin[zhang_jin@suixingpay.com]
+ * @author zhang_jin[zhang_jin@XXXCompany.com]
  * 思路：死锁的产生，在于多个线程在相互持有对方想要获取的锁，且不释放。
  */
 public class DeadLockDemo {

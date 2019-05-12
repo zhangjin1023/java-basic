@@ -10,7 +10,7 @@ import java.lang.annotation.Target;
 /**
  * 水果提供商注解
  *
- * @author zhang_jin[zhang_jin@suixingpay.com]
+ * @author zhang_jin[zhang_jin@XXXCompany.com]
  */
 @Target(ElementType.FIELD)
 @Inherited

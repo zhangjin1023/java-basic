@@ -6,7 +6,7 @@ import java.util.concurrent.atomic.AtomicIntegerFieldUpdater;
  * 原子更新字段类都是抽象类，每次使用都时候必须使用静态方法newUpdater创建一个更新器。
  * 原子更新类的字段的必须使用public volatile修饰符。
  *
- * @author zhang_jin[zhang_jin@suixingpay.com]
+ * @author zhang_jin[zhang_jin@XXXCompany.com]
  */
 public class TestAtomicIntegerFieldUpdater {
 

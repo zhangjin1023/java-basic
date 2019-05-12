@@ -15,7 +15,7 @@ import java.time.temporal.ChronoUnit;
 /**
  * Java8新日期时间API的使用示例
  *
- * @author zhang_jin[zhang_jin@suixingpay.com]
+ * @author zhang_jin[zhang_jin@XXXCompany.com]
  */
 public class Practice {
     @Test

@@ -10,7 +10,7 @@ import java.io.InputStream;
 /**
  * 解析xml文件,单例模式生成数据库配置类
  *
- * @author zhang_jin[zhang_jin@suixingpay.com]
+ * @author zhang_jin[zhang_jin@XXXCompany.com]
  */
 public class XmlConfigReader {
     private static XmlConfigReader instance = null;

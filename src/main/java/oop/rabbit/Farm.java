@@ -6,10 +6,10 @@ import java.util.List;
 /**
  * 农场类，装兔子用
  *
- * @author: zhang_jin[zhang_jin@suixingpay.com]
+ * @author: zhang_jin[zhang_jin@XXXCompany.com]
  * @date: 2017年9月25日 下午8:42:09
  * @version: V1.0
- * @review: zhang_jin[zhang_jin@suixingpay.com]/2017年9月25日 下午8:42:09
+ * @review: zhang_jin[zhang_jin@XXXCompany.com]/2017年9月25日 下午8:42:09
  */
 public class Farm {
     private static final List<PairRabbit> list = new ArrayList<>();

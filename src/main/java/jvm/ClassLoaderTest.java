@@ -6,7 +6,7 @@ import java.io.InputStream;
 /**
  * 不同的类加载器对instanceof 关键字运算的结果影响
  *
- * @author zhang_jin[zhang_jin@suixingpay.com]
+ * @author zhang_jin[zhang_jin@XXXCompany.com]
  */
 public class ClassLoaderTest {
     public static void main(String[] args) throws ClassNotFoundException, InstantiationException, IllegalAccessException {

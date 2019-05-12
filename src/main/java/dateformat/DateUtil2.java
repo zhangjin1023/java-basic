@@ -7,7 +7,7 @@ import java.util.Date;
 /**
  * 采用static静态变量:不是线程安全的。
  *
- * @author zhang_jin[zhang_jin@suixingpay.com]
+ * @author zhang_jin[zhang_jin@XXXCompany.com]
  */
 public class DateUtil2 {
 

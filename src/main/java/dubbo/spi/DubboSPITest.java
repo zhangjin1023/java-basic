@@ -4,13 +4,13 @@ import com.alibaba.dubbo.common.extension.ExtensionLoader;
 import org.junit.Test;
 
 /**
- * All rights Reserved, Designed By Suixingpay.
+ * All rights Reserved, Designed By XXXCompany.
  * 参考文档：http://dubbo.apache.org/zh-cn/docs/source_code_guide/dubbo-spi.html
  *
  * @author: 张锦
  * @date: 2019/4/21 13:49
- * @Copyright ©2019 Suixingpay. All rights reserved.
- * 注意：本内容仅限于随行付支付有限公司内部传阅，禁止外泄以及用于其他的商业用途。
+ * @Copyright ©2019 XXXCompany. All rights reserved.
+ * 注意：本内容仅限于XXX有限公司内部传阅，禁止外泄以及用于其他的商业用途。
  */
 public class DubboSPITest {
 

@@ -8,7 +8,7 @@ import java.util.Date;
  * 用ThreadLocal实现线程独享.相比方法独享的局部变量来说，能减少许多对象的创建。
  * 如果对性能要求比较高的情况下，一般推荐使用这种方法。
  *
- * @author zhang_jin[zhang_jin@suixingpay.com]
+ * @author zhang_jin[zhang_jin@XXXCompany.com]
  */
 public class DateUtil4 {
 

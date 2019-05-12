@@ -14,7 +14,7 @@ import java.util.Set;
  * 5.通过构造器初始化所有成员，进行深拷贝(deep copy)
  * 6.在getter方法中，不要直接返回对象本身，而是克隆对象，并返回对象的拷贝
  *
- * @author zhang_jin[zhang_jin@suixingpay.com]
+ * @author zhang_jin[zhang_jin@XXXCompany.com]
  */
 public final class FinalClassDemo {
     private final int id;

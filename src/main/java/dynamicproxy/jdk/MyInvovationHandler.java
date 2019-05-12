@@ -1,10 +1,10 @@
 /**
- * All rights Reserved, Designed By Suixingpay.
+ * All rights Reserved, Designed By XXXCompany.
  *
- * @author: zhang_jin[zhang_jin@suixingpay.com]
+ * @author: zhang_jin[zhang_jin@XXXCompany.com]
  * @date: 2017年9月24日 下午1:03:14
- * @Copyright ©2017 Suixingpay. All rights reserved.
- * 注意：本内容仅限于随行付支付有限公司内部传阅，禁止外泄以及用于其他的商业用途。
+ * @Copyright ©2017 XXXCompany. All rights reserved.
+ * 注意：本内容仅限于XXX有限公司内部传阅，禁止外泄以及用于其他的商业用途。
  */
 package dynamicproxy.jdk;
 
@@ -15,10 +15,10 @@ import java.lang.reflect.Proxy;
 /**
  * TODO
  *
- * @author: zhang_jin[zhang_jin@suixingpay.com]
+ * @author: zhang_jin[zhang_jin@XXXCompany.com]
  * @date: 2017年9月24日 下午1:03:14
  * @version: V1.0
- * @review: zhang_jin[zhang_jin@suixingpay.com]/2017年9月24日 下午1:03:14
+ * @review: zhang_jin[zhang_jin@XXXCompany.com]/2017年9月24日 下午1:03:14
  */
 public class MyInvovationHandler implements InvocationHandler {
 

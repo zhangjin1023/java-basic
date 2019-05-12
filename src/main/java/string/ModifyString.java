@@ -1,10 +1,10 @@
 /**
- * All rights Reserved, Designed By Suixingpay.
+ * All rights Reserved, Designed By XXXCompany.
  *
- * @author: zhang_jin[zhang_jin@suixingpay.com]
+ * @author: zhang_jin[zhang_jin@XXXCompany.com]
  * @date: 2017年8月17日 下午5:44:33
- * @Copyright ©2017 Suixingpay. All rights reserved.
- * 注意：本内容仅限于随行付支付有限公司内部传阅，禁止外泄以及用于其他的商业用途。
+ * @Copyright ©2017 XXXCompany. All rights reserved.
+ * 注意：本内容仅限于XXX有限公司内部传阅，禁止外泄以及用于其他的商业用途。
  */
 package string;
 
@@ -13,10 +13,10 @@ import java.lang.reflect.Field;
 /**
  * 利用反射，修改String
  *
- * @author: zhang_jin[zhang_jin@suixingpay.com]
+ * @author: zhang_jin[zhang_jin@XXXCompany.com]
  * @date: 2017年8月17日 下午5:44:33
  * @version: V1.0
- * @review: zhang_jin[zhang_jin@suixingpay.com]/2017年8月17日 下午5:44:33
+ * @review: zhang_jin[zhang_jin@XXXCompany.com]/2017年8月17日 下午5:44:33
  */
 public class ModifyString {
     public static void main(String[] args)

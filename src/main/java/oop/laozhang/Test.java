@@ -3,10 +3,10 @@ package oop.laozhang;
 /**
  * TODO
  *
- * @author: zhang_jin[zhang_jin@suixingpay.com]
+ * @author: zhang_jin[zhang_jin@XXXCompany.com]
  * @date: 2017年9月25日 下午10:05:27
  * @version: V1.0
- * @review: zhang_jin[zhang_jin@suixingpay.com]/2017年9月25日 下午10:05:27
+ * @review: zhang_jin[zhang_jin@XXXCompany.com]/2017年9月25日 下午10:05:27
  */
 public class Test {
     public static void main(String[] args) {

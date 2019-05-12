@@ -1,20 +1,20 @@
 /**
- * All rights Reserved, Designed By Suixingpay.
+ * All rights Reserved, Designed By XXXCompany.
  *
- * @author: zhangjin[zhang_jin@suixingpay.com]
+ * @author: zhangjin[zhang_jin@XXXCompany.com]
  * @date: 2017年7月15日 下午4:27:12
- * @Copyright ©2017 Suixingpay. All rights reserved.
- * 注意：本内容仅限于随行付支付有限公司内部传阅，禁止外泄以及用于其他的商业用途。
+ * @Copyright ©2017 XXXCompany. All rights reserved.
+ * 注意：本内容仅限于XXX有限公司内部传阅，禁止外泄以及用于其他的商业用途。
  */
 package param;
 
 /**
  * 测试java参数传递：都是按值传递
  *
- * @author: zhangjin[zhang_jin@suixingpay.com]
+ * @author: zhangjin[zhang_jin@XXXCompany.com]
  * @date: 2017年7月15日 下午4:27:12
  * @version: V1.0
- * @review: zhangjin[zhang_jin@suixingpay.com]/2017年7月15日 下午4:27:12
+ * @review: zhangjin[zhang_jin@XXXCompany.com]/2017年7月15日 下午4:27:12
  */
 public class TestParam {
     public static void method1(int i) {

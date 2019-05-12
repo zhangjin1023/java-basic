@@ -12,7 +12,7 @@ import java.net.URL;
 /**
  * 测试apache的FileUtils工具类
  *
- * @author zhang_jin[zhang_jin@suixingpay.com]
+ * @author zhang_jin[zhang_jin@XXXCompany.com]
  */
 public class TestFileUtils {
     /**

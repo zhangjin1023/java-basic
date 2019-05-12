@@ -3,7 +3,7 @@ package algorithms;
 /**
  * 二分查找：基于有序数组进行查找关键字
  *
- * @author zhang_jin[zhang_jin@suixingpay.com]
+ * @author zhang_jin[zhang_jin@XXXCompany.com]
  */
 public class BinarySearch {
     public static int binarySearch(int key, int[] array) {

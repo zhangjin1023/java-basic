@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * xml解析位student实体
  *
- * @author zhang_jin[zhang_jin@suixingpay.com]
+ * @author zhang_jin[zhang_jin@XXXCompany.com]
  */
 @XStreamAlias("student")
 public class Student {

@@ -3,7 +3,7 @@ package xml;
 /**
  * 数据库配置信息
  *
- * @author zhang_jin[zhang_jin@suixingpay.com]
+ * @author zhang_jin[zhang_jin@XXXCompany.com]
  */
 public class JdbcConfig {
 

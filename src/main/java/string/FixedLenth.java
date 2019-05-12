@@ -7,7 +7,7 @@ import java.math.RoundingMode;
 /**
  * 定长字符串
  *
- * @author zhang_jin[zhang_jin@suixingpay.com]
+ * @author zhang_jin[zhang_jin@XXXCompany.com]
  */
 public class FixedLenth {
     public static void main(String[] args) {
