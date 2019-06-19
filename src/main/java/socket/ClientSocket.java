@@ -9,7 +9,8 @@ public class ClientSocket {
         Runnable runnable = new Runnable() {
             public void run() {
                 try {
-                    Socket socket = new Socket("192.168.0.192", 2333);
+//                    Socket socket = new Socket("192.168.0.192", 2333);
+                    Socket socket = new Socket("172.16.136.195", 20883);
                     PrintWriter out = new PrintWriter(socket.getOutputStream(), true);
                     out.println("hello world!!!!");
                     try {
@@ -24,7 +25,7 @@ public class ClientSocket {
                 }
             }
         };
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 1000; i++) {
             Thread thread = new Thread(runnable);
             thread.start();
         }
