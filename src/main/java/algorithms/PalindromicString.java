@@ -1,7 +1,7 @@
 package algorithms;
 
 /**
- * @description:判断字符串是否为 回文字符串
+ * @description:判断字符串是否为 "回文字符串"
  * @Date : 2019/12/13 16:13
  * @Author : zhang_jin
  */
